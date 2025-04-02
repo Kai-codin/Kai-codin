@@ -13,4 +13,4 @@ The new version of MyBusTimes is powered by:
 - **EJS**: A templating engine that lets me embed JavaScript into HTML to create dynamic pages.
 - **Django Rest Framework**: A powerful toolkit for building Web APIs in Python, making it easy to serve data to the frontend.
 
-Stay tuned for updates and feel free to reach out if you'd like to learn more or contribute! 🙌
+Stay tuned for updates and feel free to reach out if you'd like to learn more or contribute.
