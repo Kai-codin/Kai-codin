@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coming Soon | Kai's Space</title>
+  <style>
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      transition: background 0.3s ease;
+    }
+
+    body {
+      background: radial-gradient(circle at center, #612899, #102555);
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 40px 30px;
+      border-radius: 20px;
+      max-width: 700px;
+      width: 90%;
+      box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+      backdrop-filter: blur(10px);
+    }
+
+    h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    h2 {
+      margin-top: 2.5rem;
+      font-size: 1.5rem;
+      color: #c5a8ff;
+    }
+
+    p {
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .tagline {
+      font-style: italic;
+      font-size: 1rem;
+      opacity: 0.75;
+    }
+
+    hr {
+      margin: 30px auto;
+      border: none;
+      border-top: 1px solid rgba(255, 255, 255, 0.2);
+      width: 80%;
+    }
+
+    .links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 15px;
+      margin-top: 10px;
+    }
+
+    .links a {
+      color: #fff;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 10px 20px;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: 500;
+      transition: all 0.3s ease;
+    }
+
+    .links a:hover {
+      background: rgba(255, 255, 255, 0.25);
+      transform: scale(1.05);
+    }
+
+    @media (max-width: 600px) {
+      h1 {
+        font-size: 2rem;
+      }
+      .links a {
+        padding: 8px 16px;
+        font-size: 0.95rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Hi, I'm Kai</h1>
+    <p>This site will soon host my personal blog, coding projects, and random experiments.</p>
+    <p class="tagline">Still under construction — thanks for stopping by!</p>
+
+    <h2>Current Works</h2>
+    <div class="links">
+      <a href="https://mybustimes.cc" target="_blank">MyBusTimes</a>
+      <a href="https://ticketer.mybustimes.cc" target="_blank">MyTicketer</a>
+    </div>
+
+    <hr>
+
+    <h2>Links</h2>
+    <div class="links">
+      <a href="https://github.com/Kai-codin" target="_blank">GitHub</a>
+      <a href="mailto:kai@mybustimes.cc">Email</a>
+      <a href="https://portfolie.kiacoding.cc" target="_blank">Portfolie</a>
+    </div>
+
+    <hr>
+
+    <div class="links">
+      <a href="https://log.nova-spectra-games.com/u/Kai" target="_blank">College Log</a>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener("mousemove", (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+
+      document.body.style.background = `
+        radial-gradient(circle at ${x}% ${y}%, #612899, #102555)
+      `;
+    });
+  </script>
+</body>
+</html>
