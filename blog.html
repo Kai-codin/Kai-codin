@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Kai Coding Blog</title>
+  <link rel="icon" type="image/x-icon" href="Favicon.png">
   <style>
     html {
       min-height: 100%;
@@ -49,12 +50,15 @@
 </head>
 
 <body>
-  <h1>Kai's Blog</h1>
+  <h1 id="usersBlog">X's Blog</h1>
   <div id="posts">Loading posts...</div>
 
   <script>
     const urlParams = new URLSearchParams(window.location.search);
     const user = urlParams.get("user");
+
+    document.getElementById("usersBlog").textContent=`${user}'s Blog`;
+
     const blogFolder = `/Blogs/${user}/`;
     const indexFile = blogFolder + "index.json";
 
@@ -75,11 +79,11 @@
               const el = document.createElement("div");
               el.className = "blog-post";
               el.innerHTML = `
-  <h2>${post.title}</h2>
-  <p><strong>By:</strong> ${post.author} | <strong>Date:</strong> ${post.date}</p>
-  <p class="tags"><strong>Tags:</strong> ${post.tags.map(tag => `<a href="?user=${encodeURIComponent(user)}&tag=${encodeURIComponent(tag)}">${tag}</a>`).join(', ')}</p>
-  <p>${post.summary}</p>
-`;
+              <h2>${post.title}</h2>
+              <p><strong>By:</strong> ${post.author} | <strong>Date:</strong> ${post.date}</p>
+              <p class="tags"><strong>Tags:</strong> ${post.tags.map(tag => `<a href="?user=${encodeURIComponent(user)}&tag=${encodeURIComponent(tag)}">${tag}</a>`).join(', ')}</p>
+              <p>${post.summary}</p>
+            `;
               post.content.forEach(item => {
                 if (item.type === "paragraph") {
                   const p = document.createElement("p");
