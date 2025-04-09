@@ -6,20 +6,22 @@
   <title>Kai Coding Blog</title>
   <link rel="icon" type="image/x-icon" href="Favicon.png">
   <style>
-    html {
+    html, body {
       min-height: 100%;
+      margin: 0;
+      padding: 0;
     }
-
+  
     body {
       background: radial-gradient(circle at center, #612899, #102555);
       font-family: Arial, sans-serif;
       padding: 20px;
-      max-width: 55em;
       color: white;
+      max-width: 55em;
       margin: 0 auto;
-      min-height: 100%;
+      box-sizing: border-box;
     }
-
+  
     .blog-post {
       border: 1px solid #00000017;
       padding: 15px;
@@ -27,24 +29,69 @@
       border-radius: 10px;
       background: #00000050;
     }
-
+  
     .blog-post h2 {
       margin-top: 0;
+      font-size: 1.6em;
     }
-
+  
     .tags {
       color: #bbbbbb;
       font-size: 0.9em;
+      flex-wrap: wrap;
     }
-
+  
     .tags a {
       text-decoration: none;
       color: #bbbbbb;
       font-size: 0.9em;
+      margin-right: 10px;
     }
-
+  
     .tags a:hover {
       text-decoration: underline;
+    }
+  
+    /* Responsive Styles */
+    @media (max-width: 768px) {
+      body {
+        padding: 15px;
+      }
+  
+      .blog-post {
+        padding: 12px;
+      }
+  
+      .blog-post h2 {
+        font-size: 1.4em;
+      }
+  
+      .tags {
+        font-size: 0.85em;
+      }
+    }
+  
+    @media (max-width: 480px) {
+      body {
+        padding: 10px;
+      }
+  
+      .blog-post {
+        padding: 10px;
+      }
+  
+      .blog-post h2 {
+        font-size: 1.2em;
+      }
+  
+      .tags {
+        font-size: 0.8em;
+      }
+  
+      .tags a {
+        display: block;
+        margin-bottom: 5px;
+      }
     }
   </style>
 </head>
