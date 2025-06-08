@@ -1,0 +1,21 @@
+{
+  "name": "Kai Coding",
+  "short_name": "Kai Coding",
+  "icons": [
+    {
+      "src": "/https://github.com/Kai-codin/Kai-codin/blob/main/favicons/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/https://github.com/Kai-codin/Kai-codin/blob/main/favicons/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#9351d5",
+  "background_color": "#9351d5",
+  "display": "standalone"
+}
