@@ -1,6 +1,10 @@
 # Hi, I'm Kai
 
-**Pronouns:** They/Them
+<div align="center">
+  <img width="200" height="200" alt="kai-circle" src="https://github.com/user-attachments/assets/c08a30e3-4da7-4263-92d9-49db6c0ab6ea" />
+  
+  They/Them
+</div>
 
 ## About Me
 
