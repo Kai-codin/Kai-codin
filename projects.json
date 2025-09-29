@@ -1,0 +1,77 @@
+{
+    "projects": [
+        {
+            "catagory": "Web",
+            "full_name": "MyBusTimes",
+            "url_name": "my-bus-times",
+            "link": "https://mybustimes.cc",
+            "description": "MyBusTimes is a website I created to track my in game fleet of buses for my game <a href='/project.html?game=poly-bus'>Poly Bus</a>. \n The website started as a simple single page to just the vehiceles regs fleets numbers type and livery \n But then due to some intrest from some friends I added a database and recoded it in PHP this grow the site to 2000 members. \n As of July 2025 I recoded it again in Django as of writing this I has now grown to over 2500 members and 5,000,000 trips logged on the site.",
+            "main_image": "https://github.com/Kai-codin/MBT-Media-Kit/blob/main/MBT%20Logos/mbt.png?raw=true",
+            "images": {
+
+            }
+        },
+        {
+            "catagory": "Game",
+            "full_name": "Lost",
+            "url_name": "lost",
+            "link": "https://img.itch.zone/aW1hZ2UvMjUzMzEyNC8xNjc2MDYwNS5wbmc=/original/a0RRdZ.png",
+            "description": "Lost was the first project of Year 2 of my collage course. \n It's a VR psychological horror based in 2020. \n This was a group project where I would with some of my friends to produce this game. \n The team consisted of 4 people 1 Artist, 1 3D modeller and 2 programmers which I was one of.",
+            "main_image": "https://img.itch.zone/aW1hZ2UvMzA2MDQ3Mi8xODMwMzIxOC5wbmc=/original/Gxk0Qn.png",
+            "images": {
+                "Main Menu": "https://img.itch.zone/aW1hZ2UvMzA2MDQ3Mi8xODMwMzIxNy5wbmc=/original/%2BYdjnN.png",
+                "Blender Mock Render": "https://img.itch.zone/aW1hZ2UvMzA2MDQ3Mi8xODMwMzIxOS5wbmc=/original/7pCVG5.png"
+            }
+        },
+        {
+            "catagory": "Game",
+            "full_name": "Poly Bus",
+            "url_name": "poly-bus",
+            "link": "https://nova-spectra-games.itch.io/polly-bus",
+            "description": "Poly Bus was my Final major project (FMP) for my first year of collage. \n It's a 3D bus driving simulator game. \n The vehicles are moddelled of buses from around the UK.",
+            "main_image": "https://img.itch.zone/aW1nLzE2NzYwNTk0LnBuZw==/original/t6cDwn.png",
+            "images": {
+                "Game Poster": "https://img.itch.zone/aW1hZ2UvMjUzMzEyNC8xNjc2MDYwNS5wbmc=/original/a0RRdZ.png",
+                "Bus model 1": "https://img.itch.zone/aW1hZ2UvMjUzMzEyNC8xODI3MzU0Ni5qcGc=/original/aLeIUO.jpg",
+                "Bus model 2": "https://img.itch.zone/aW1hZ2UvMjUzMzEyNC8xODI3MjkwOC5qcGc=/original/7n4yZe.jpg",
+                "Bus Line Up": "https://img.itch.zone/aW1hZ2UvMjUzMzEyNC8xNjc2MDYwNy5wbmc=/original/zRFwcY.png"
+            }
+        },
+        {
+            "catagory": "Game",
+            "full_name": "Winter Warfare",
+            "url_name": "winter-warfare",
+            "link": "https://nova-spectra-games.itch.io/winter-warfare",
+            "description": "Winter Warfare is a 2D top-down tower game based off ballons TD with a winter theme. \n This was created as part of a Game Jam in my first year of collage, this game also came first place in that jam.",
+            "main_image": "https://img.itch.zone/aW1hZ2UvMjQ3MzM4Mi8xNDY4MjQzMy5wbmc=/original/Wcl7s%2F.png",
+            "images": {
+                "Gameplay": "https://img.itch.zone/aW1hZ2UvMjQ3MzM4Mi8xNDY4MjQzNS5wbmc=/original/VSNmmj.png"
+            }
+        },
+        {
+            "catagory": "Game",
+            "full_name": "Byte Breakout",
+            "url_name": "byte-breakout",
+            "link": "https://nova-spectra-games.itch.io/byte-breakout-escaping-the-digital-ward",
+            "description": "Byte Breakout is my first 3D game that I made. \n It's a horror escape game.",
+            "main_image": "https://img.itch.zone/aW1nLzE0Njk5OTIxLnBuZw==/original/4i4ZpD.png",
+            "images": {
+                "Level 1": "https://img.itch.zone/aW1hZ2UvMjQ3MzQ5OC8xNDcxNDU4Ny5wbmc=/794x1000/IeT5yH.png",
+                "Game ending": "https://img.itch.zone/aW1hZ2UvMjQ3MzQ5OC8xNDkxMzU5MC5wbmc=/794x1000/miXn39.png",
+                "Bus stop asset": "https://img.itch.zone/aW1hZ2UvMjQ3MzQ5OC8xNDkxMzYwMC5wbmc=/794x1000/%2F38hdG.png"
+            }
+        },
+        {
+            "catagory": "Game",
+            "full_name": "Village Guardian",
+            "url_name": "village-guardian",
+            "link": "https://nova-spectra-games.itch.io/village-guardian-rise-of-the-inferno-dragon",
+            "description": "Villager Guardian is the first game I made at the start of my College games course.",
+            "main_image": "https://img.itch.zone/aW1nLzE0OTU0NTY1LnBuZw==/315x250%23c/4iRo1H.png",
+            "images": {
+                "Main menu": "https://img.itch.zone/aW1hZ2UvMjQ3MjE5Mi8xNDY3MzgxNS5wbmc=/original/wzHMu2.png",
+                "Gameplay": "https://img.itch.zone/aW1hZ2UvMjQ3MjE5Mi8xNDY3MzgxMy5wbmc=/original/sC1Zqc.png"
+            }
+        }
+    ]
+}

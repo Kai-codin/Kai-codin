@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="Favicon.png">
+  <title>Coming Soon | Kai's Space</title>
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>My Portfolio</h1>
+      <div class="links">
+          <a href="/">Back</a>
+      </div>
+
+      <h2>My Games</h2>
+      <div class="links" id="projects">
+        <p>Loading...</p>
+      </div>
+  </div>
+  <script>
+    document.addEventListener("mousemove", (e) => {
+      const x = (e.clientX / window.innerWidth) * 100;
+      const y = (e.clientY / window.innerHeight) * 100;
+
+      document.body.style.background = `
+        radial-gradient(circle at ${x}% ${y}%, #612899, #102555)
+      `;
+    });
+
+    fetch('projects.json')
+      .then(response => response.json())
+      .then(data => {
+        console.log(data.projects)
+        let projectsDiv = document.getElementById('projects');
+        projectsDiv.innerHTML = ''; // Clear loading text
+
+        for (let i = 0; i < data.projects.length; i++) {
+          console.log(data.projects[i].full_name)
+          console.log(data.projects[i].url_name)
+
+          projectsDiv.innerHTML += `<a href="/project.html?game=${data.projects[i].url_name}">${data.projects[i].full_name}</a>`
+
+        }
+      })
+      .catch(error => console.error('Error fetching JSON:', error));
+  </script>
+</body>
+</html>

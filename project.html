@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/x-icon" href="Favicon.png">
+  <title>Coming Soon | Kai's Space</title>
+  <link rel="stylesheet" href="/src/css/style.css">
+</head>
+
+<body>
+  <header>
+    <h1>Kai's Portfolio</h1>
+    <nav>
+      <a href="#about">About</a>|<a href="#projects">Projects</a>|<a href="#contact">Contact</a>
+    </nav>
+  </header>
+  <main>
+    <div class="content">
+      <br><br><br>
+      <div class="section white-bg">
+
+      </div>
+    </div>
+    <script>
+      const queryString = window.location.search;
+      const urlParams = new URLSearchParams(queryString);
+      const game = urlParams.get('game');
+      console.log(game);
+
+      fetch('projects.json')
+        .then(response => response.json())
+        .then(data => {
+          console.log(data.projects)
+
+          for (let i = 0; i < data.projects.length; i++) {
+            console.log(data.projects[i].full_name)
+            console.log(data.projects[i].url_name)
+
+            if (data.projects[i].url_name === game) {
+              document.querySelector('.section').innerHTML = `
+              <h1 class="header">${data.projects[i].full_name}</h1>
+              <div class="links"> 
+              <a class="button" href="${data.projects[i].link}" target="_blank">View on Itch.io</a>
+              </div>
+              <p class="p-default">${data.projects[i].description.replace(/\n/g, '<br>')}</p>
+              <br><br>
+
+              <div class="projects-list" id="projects-list">
+                  ${Object.entries(data.projects[i].images).map(([title, url]) => `
+                  <div class="project">
+                    <div style="margin-bottom: 20px;">
+                      <h3>${title}</h3>
+                      <img src="${url}" alt="${title}" style="max-width: 100%; height: auto; border: 2px solid #fff; border-radius: 8px;">
+                    </div>
+                  </div>
+                  `).join('')}
+                </div>
+
+              <div class="links" style="margin-top: 100px;"> 
+                <a class="button" href="/#projects">Back to Portfolio</a>
+              </div>
+            `;
+            }
+
+          }
+        })
+        .catch(error => console.error('Error fetching JSON:', error));
+    </script>
+  </main>
+  <footer>
+    <p>&copy; 2024 Kai Boucher</p>
+  </footer>
+</body>
+
+</html>
