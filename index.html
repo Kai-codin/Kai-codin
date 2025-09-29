@@ -12,7 +12,7 @@
   <header>
     <h1>Kai's Portfolio</h1>
     <nav>
-      <a href="#about">About</a>|<a href="#projects">Projects</a>|<a href="#contact">Contact</a>
+      <a href="#about">About</a>|<a href="#projects">Projects</a>|<a id="contact" href="#contact">Contact</a>
     </nav>
   </header>
   <main>
@@ -64,6 +64,10 @@
       .catch(error => console.error('Error fetching JSON:', error));
 
       document.getElementById('years-coding').textContent = new Date().getFullYear() - 2020;
+
+      document.getElementById('contact').addEventListener('click', function() {
+        window.location.href = 'mailto:kai@kai-codin.cc';
+      });
   </script>
   <footer>
     <p>&copy; 2024 Kai Boucher</p>
