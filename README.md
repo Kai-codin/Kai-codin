@@ -4,7 +4,7 @@
   <img width="200" height="200" alt="kai-circle" src="https://github.com/user-attachments/assets/c08a30e3-4da7-4263-92d9-49db6c0ab6ea" />
   
   They/Them
-</div>
+
 
 ## About Me
 
@@ -15,8 +15,6 @@ I'm also a 1st year student at University of Staffordshire
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Kai-codin&show_icons=true&number_format=long&border_radius=21&rank_icon=github&theme=dark&ring_color=0b4e75&icon_color=0b4e75&border_color=0b4e75)
 
 ![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Kai-codin&theme=dark&border_radius=21&layout=compact&border_color=0b4e75)
-
-<div align="center">
   
 ## Current Tech Stack
   
