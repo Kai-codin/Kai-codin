@@ -5,7 +5,7 @@
             "full_name": "MyBusTimes",
             "url_name": "my-bus-times",
             "link": "https://mybustimes.cc",
-            "description": "MyBusTimes is a website I created to track my in game fleet of buses for my game <a href='/project.html?game=poly-bus'>Poly Bus</a>. \n The website started as a simple single page to just the vehiceles regs fleets numbers type and livery \n But then due to some intrest from some friends I added a database and recoded it in PHP this grow the site to 2000 members. \n As of July 2025 I recoded it again in Django as of writing this I has now grown to over 2750 members and 5,000,000 trips logged on the site.",
+            "description": "MyBusTimes is a website I created to track my in game fleet of buses for my game <a href='/project.html?game=poly-bus'>Poly Bus</a>. \n The website started as a simple single page to just the vehiceles regs fleets numbers type and livery \n But then due to some intrest from some friends I added a database and recoded it in PHP this grow the site to 1000 members. \n As of July 2025 I recoded it again in Django as of writing this I has now grown to over 3000 members and 8,000,000 trips logged on the site.",
             "main_image": "https://github.com/Kai-codin/MBT-Media-Kit/blob/main/MBT%20Logos/mbt.png?raw=true",
             "images": {
 
