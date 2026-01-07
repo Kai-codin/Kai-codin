@@ -13,7 +13,9 @@ I'm the developer behind [MyBusTimes](https://mybustimes.cc) - a project built i
 I'm also a 1st year student at University of Staffordshire
 
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=Kai-codin&show_icons=true&theme=nord)
+<br>
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=Kai-codin&theme=nord)
+<br>
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/top-langs/?username=Kai-codin&layout=compact&theme=nord)
   
 ## Current Tech Stack
