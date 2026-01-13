@@ -12,6 +12,8 @@ I'm the developer behind [MyBusTimes](https://mybustimes.cc) - a project built i
 
 I'm also a 1st year student at University of Staffordshire
 
+IDK what else to add here :3
+
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api?username=Kai-codin&show_icons=true&theme=nord)
 <br>
 ![GitHub Stats](https://github-readme-stats-fast.vercel.app/api/streak?username=Kai-codin&theme=nord)
@@ -57,4 +59,3 @@ I'm also a 1st year student at University of Staffordshire
 ![Windows](https://img.shields.io/badge/Windows-0078D6?style=for-the-badge&logo=windows&logoColor=white)
 
 </div>
-Stay tuned for more updates — and feel free to reach out if you’d like to collaborate or contribute!
